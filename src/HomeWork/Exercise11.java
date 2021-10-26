@@ -1,7 +1,6 @@
 package HomeWork;
 
 import java.util.Scanner;
-
 public class Exercise11 {
     public static void main(String[] args) {
         double x;
@@ -15,11 +14,8 @@ public class Exercise11 {
             System.out.println(result2);
         }
             else {
-            result1 = (x + x - (x / 2));
+            result1 = (x + (x % 2));
             System.out.println(result1);
         }
-
     }
-
-
 }
