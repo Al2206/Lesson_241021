@@ -1,32 +1,34 @@
 package HomeWork;
 
 import java.util.Scanner;
-
 public class Exercise10 {
     public static void main(String[] args) {
-        int x;
+        int x, i;
         Scanner in = new Scanner(System.in);
         System.out.println("Введите число:  ");
+        System.out.println("Введите номер оператора  от 1 до 3:  ");
         x = in.nextInt();
-        int i = 0;
-        switch (1) {
-            case 1:
-                i = x / x;
-                System.out.println(i);
-            break;
+        i = in.nextInt();
+        if  (i == 1) {
+          x /= x ;
+        } else  if (i == 2) {
+            x *= x;
+        } else if (i == 3) {
+            x = x * x - x;
+        } else  if ( i > 3) {
+            System.out.println("Введено неверное значение ");
         }
-        switch (2) {
+        switch (i) {
+            case 1:
+                System.out.println(x);
+                break;
             case 2:
-                i = x * x;
-                System.out.println(i);
+                System.out.println(x);
                 break;
-        }
-        switch (1) {
-            case 1:
-                i = x * x - x;
-                System.out.println(i);
+            case 3:
+                System.out.println(x);
                 break;
+            default:
         }
-
     }
 }
