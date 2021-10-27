@@ -20,13 +20,13 @@ public class Exercise10 {
         }
         switch (i) {
             case 1:
-                System.out.println(x);
+                System.out.println(" x /= x :" + x);
                 break;
             case 2:
-                System.out.println(x);
+                System.out.println(" x *= x :" + x);
                 break;
             case 3:
-                System.out.println(x);
+                System.out.println("  x = x * x - x :" + x);
                 break;
             default:
         }
