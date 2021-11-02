@@ -5,7 +5,7 @@ public class Exercise6 {
     public static void main(String[] args) {
         int a ;
         Scanner in = new Scanner(System.in);
-        System.out.println("Введите вухзначное число:  ");
+        System.out.println("Введите двухзначное число:  ");
         a = in.nextInt();
         int b = 0;
         while ( a > 0) {
